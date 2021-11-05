@@ -1,0 +1,24 @@
+{
+  "name": "publicPathDemo1",
+  "version": "1.0.0",
+  "description": "publicPathTestDemo",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "cross-env NODE_ENV=production webpack --config=./webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yuanbest",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "html-webpack-plugin": "^5.5.0"
+  }
+}
